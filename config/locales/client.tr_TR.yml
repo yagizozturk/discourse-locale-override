@@ -66,6 +66,7 @@ tr_TR:
         x_hours:
           other: "%{count} saat önce"
         x_days:
+          one: "1 gün önce"
           other: "%{count} gün önce"
     share:
       topic: 'bu konunun bağlantısını paylaşın'
