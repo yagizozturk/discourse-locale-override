@@ -42,6 +42,7 @@ tr_TR:
         about_x_hours:
           other: "%{count}s"
         x_days:
+          one: "1g"
           other: "%{count}g"
         about_x_years:
           other: "%{count}y"
