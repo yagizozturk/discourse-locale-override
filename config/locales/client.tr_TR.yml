@@ -717,8 +717,8 @@ tr_TR:
           unread: '<p> Okunmamış konularınız burada belirecek. </p><p> Varsayılan ayarlarda, şu durumlarda konular okunmamış sayılır ve okunmamışların sayısı <span class="badge new-posts badge-notification">1</span> gösterilir: </p><ul><li>Konuyu oluşturduysanız</li><li>Konuyu cevapladıysanız</li><li>Konuyu 4 dakikadan uzun bir süre okuduysanız</li></ul><p> Ya da, konunun altında bulunan bildirim kontrol bölümünden, konuyu Takip Edildi veya Gözlendi diye işaretlediyseniz.</p><p>Bu ayarları <a href="%{userPrefsUrl}">ayarlar</a> sayfasından değiştirebilirsiniz.</p>'
           starred: '<p>Yıldızlanan konularınız burada belirir.</p><p>Konuları yıldızlamak ya da yıldızlarını kaldırmak için şunları kullanın:</p><ul><li>konu başlıklarının yanında bulunan <i class="fa fa-star"></i> butonunu</li><li>Her konunun en alt kısmında bulunan Yıldız butonunu</li></ul>'
       bottom:
-        latest: "Daha fazla son konu yok."
-        hot: "Daha fazla sıcak bir konu yok."
+        latest: "Daha fazla konu yok."
+        hot: "Daha fazla konu yok."
         posted: "Daha fazla konu yok."
         read: "Daha fazla okunmuş konu yok."
         new: "Daha fazla yeni konu yok."
