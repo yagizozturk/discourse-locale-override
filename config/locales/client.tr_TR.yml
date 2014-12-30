@@ -1038,20 +1038,28 @@ tr_TR:
             other: "Siz ve {{count}} kişi bu gönderiyi oyladı"
         by_others:
           off_topic:
+            one: "1 kişi bunu konu dışı olarak bayrakladı"
             other: "{{count}} kişi bunu konu dışı olarak bayrakladı"
           spam:
+            one: "1 kişi bunu spam olarak bayrakladı"
             other: "{{count}} kişi bunu spam olarak bayrakladı"
           inappropriate:
+            one: "1 kişi bunu uygunsuz olarak bayrakladı"
             other: "{{count}} kişi bunu uygunsuz olarak bayrakladı"
           notify_moderators:
+            one: "1 kişi bunu moderasyon için bayrakladı"
             other: "{{count}} kişi bunu moderasyon için bayrakladı"
           notify_user:
+            one: "1 kişi bu kullanıcıya özel mesaj gönderdi"
             other: "{{count}} kişi bu kullanıcıya özel mesaj gönderdi"
           bookmark:
+            one: "1 kişi bu gönderiyi işaretledi"
             other: "{{count}} kişi bu gönderiyi işaretledi"
           like:
+            one: "1 kişi bunu beğendi"
             other: "{{count}} kişi bunu beğendi"
           vote:
+            one: "1 kişi bu gönderiyi oyladı"
             other: "{{count}} kişi bu gönderiyi oyladı"
       edits:
         one: 1 düzenleme
