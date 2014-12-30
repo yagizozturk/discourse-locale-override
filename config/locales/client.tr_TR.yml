@@ -146,11 +146,14 @@ tr_TR:
       last_read: "bu okuduğunuz son gönderi; işaretlemek için tıklayın"
       remove: "İşareti Kaldır"
     topic_count_latest:
-      other: "{{count}} yeni ya da güncellenmiş konular."
+      one: "1 yeni ya da güncellenmiş soru."
+      other: "{{count}} yeni ya da güncellenmiş soru."
     topic_count_unread:
-      other: "{{count}} okunmamış konular."
+      one: "1 okunmamış soru."
+      other: "{{count}} okunmamış soru."
     topic_count_new:
-      other: "{{count}} yeni konular."
+      one: "1 yeni soru."
+      other: "{{count}} yeni soru."
     click_to_show: "Görüntülemek için tıklayın."
     preview: "önizleme"
     cancel: "iptal"
