@@ -586,7 +586,7 @@ tr_TR:
       reply_here: "Buradan Cevapla"
       reply: "Cevapla"
       cancel: "İptal et"
-      create_topic: "Yeni Konu"
+      create_topic: "Yeni Soru"
       create_pm: "Özel Mesaj"
       title: "Ya da Ctrl+Enter'a bas"
       users_placeholder: "Kullanıcı ekle"
