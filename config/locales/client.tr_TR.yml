@@ -30,33 +30,33 @@ tr_TR:
       long_date_without_year_with_linebreak: "D MMM <br/>LT"
       long_date_with_year_with_linebreak: "D MMM, 'YY <br/>LT"
       tiny:
-        half_a_minute: "< 1d"
+        half_a_minute: "< 1dk."
         less_than_x_seconds:
-          one: "< 1s"
-          other: "< %{count}s"
+          one: "< 1sn."
+          other: "< %{count}sn."
         x_seconds:
-          one: "1s"
-          other: "%{count}s"
+          one: "1sn."
+          other: "%{count}sn."
         less_than_x_minutes:
-          one: "< 1d"
-          other: "< %{count}d"
+          one: "< 1dk."
+          other: "< %{count}dk."
         x_minutes:
-          one: "1d"
-          other: "%{count}d"
+          one: "1dk."
+          other: "%{count}dk."
         about_x_hours:
-          one: "1s"
-          other: "%{count}s"
+          one: "1sa."
+          other: "%{count}sa."
         x_days:
-          one: "1g"
-          other: "%{count}g"
+          one: "1gün"
+          other: "%{count}gün"
         about_x_years:
-          other: "%{count}y"
+          other: "%{count}yıl"
         over_x_years:
-          one: "> 1y"
-          other: "> %{count}y"
+          one: "> 1yıl"
+          other: "> %{count}yıl"
         almost_x_years:
-          one: "1y"
-          other: "%{count}y"
+          one: "1yıl"
+          other: "%{count}yıl"
         date_month: "D MMM"
         date_year: "MMM 'YY"
       medium:
@@ -258,7 +258,7 @@ tr_TR:
       private_messages: "Mesajlar"
       activity_stream: "Aktivite"
       preferences: "Ayarlar"
-      bookmarks: "Yer imlerine eklenenler"
+      bookmarks: "Yer imleri"
       bio: "Hakkımda"
       invited_by: "Tarafından Davet Edildi"
       trust_level: "Güven Seviyesi"
