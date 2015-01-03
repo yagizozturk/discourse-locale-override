@@ -572,7 +572,7 @@ tr_TR:
       saving_draft_tip: "kaydediliyor"
       saved_draft_tip: "kaydedildi"
       saved_local_draft_tip: "yerele kaydedildi"
-      similar_topics: "Sorunuz bu soruya benziyor..."
+      similar_topics: "Sorunuz bu soruya ya da sorulara benziyor olabilir mi?"
       drafts_offline: "çevrimdışı taslaklar"
       min_length:
         need_more_for_title: "başlığa gitmek için {{n}}"
@@ -887,6 +887,7 @@ tr_TR:
       login_reply: 'Cevaplamak için Giriş Yap'
       filters:
         n_posts:
+          one: "1 gönderi"
           other: "{{count}} gönderi"
         cancel: "Filteri kaldır"
       split_topic:
