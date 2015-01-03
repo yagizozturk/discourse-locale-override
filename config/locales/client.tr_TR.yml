@@ -1250,8 +1250,8 @@ tr_TR:
       not_available: "Müsait değil!"
     categories_list: "Kategori Listesi"
     filters:
-      with_topics: "%{filter} sorular"
-      with_category: "%{filter} %{category} sorular"
+      with_topics: "%{filter} Soruları"
+      with_category: "%{filter} %{category} Soruları"
       latest:
         title: "En Son"
         help: "yakın zamanda gönderi alan sorular"
