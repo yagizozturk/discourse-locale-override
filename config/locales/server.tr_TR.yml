@@ -25,9 +25,9 @@ tr_TR:
       short: "%d-%m-%Y"
       short_no_year: "%B %-d"
       date_only: "%-d. %b. %Y"
-  title: "Discourse"
-  topics: "Konular"
-  posts: "gönderiler"
+  title: "dinozor"
+  topics: "Sorular"
+  posts: "Gönderiler"
   loading: "Yükleniyor"
   powered_by_html: 'Gücünü <a href="http://www.discourse.org">Discourse</a> ''tan alır, en iyi görünüm için JavaScript etkinleştirmeniz gerekir'
   log_in: "Giriş Yap"
@@ -38,7 +38,7 @@ tr_TR:
   errors:
     messages:
       too_long_validation: "%{max} karakter ile limitli; siz %{length} karakter girdiniz."
-      invalid_boolean: "Geçersiz boolean değeri."
+      invalid_boolean: "Geçersiz doğru/yanlış değeri."
       taken: "alınmış"
     embed:
       load_from_remote: "Gönderi yüklenirken bir hata oluştu."
@@ -49,19 +49,21 @@ tr_TR:
     backup_file_should_be_tar_gz: "Yedekleme dosyası .tar.gz uzantılı olmalı."
     not_enough_space_on_disk: "Yedeklemenin yapılması için diskte yeterli alan bulunmuyor."
   not_logged_in: "Bunun için giriş yapmanız gerekir."
-  read_only_mode_enabled: "Bu site sadece okuma modunda. Etkileşimler etkisizleştirildi."
+  read_only_mode_enabled: "Site sadece okuma modunda. Etkileşimler etkisizleştirildi."
   too_many_replies:
     other: "Üzgünüz, yeni kullanıcılar geçici olarak aynı konu içinde sadece %{count} cevap ile sınırlılar. "
   embed:
     start_discussion: "Tartışma Başlat"
     continue: "Tartışmaya Devam Et"
     more_replies:
+      one: "1 cevap daha"
       other: "%{count} cevap daha"
     loading: "Tartışma Yükleniyor..."
     permalink: "Kalıcı Bağlantı"
-    imported_from: "Bu ilave bir tartışmadır, asıl konu adresi %{link}"
+    imported_from: "Bu ilave bir tartışmadır, asıl soru adresi %{link}"
     in_reply_to: "▶ %{username}"
     replies:
+      one "1 cevap"
       other: "%{count} cevap"
   too_many_mentions:
     zero: "Üzgünüz, diğer kullanıcılardan bahsedemezsiniz."
@@ -72,11 +74,11 @@ tr_TR:
     one: "Üzgünüz, yeni kullanıcılar bir gönderide sadece bir kullanıcıdan bahsedebilirler."
     other: "Üzgünüz, yeni kullanıcılar bir gönderide sadece %{count} kullanıcıdan bahsedebilirler."
   too_many_images:
-    zero: "Üzgünüz, yeni kullanıcılar gönderilere resi ekleyemezler."
+    zero: "Üzgünüz, yeni kullanıcılar gönderilere resim ekleyemezler."
     one: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece bir resim ekleyebilirler."
     other: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece %{count} resim koyabilirler. "
   too_many_attachments:
-    zero: "Üzgünüz, yeni kullanıcılar gönderilere bir şey ekleyemezler."
+    zero: "Üzgünüz, yeni kullanıcılar gönderilere bir eklenti ekleyemezler."
     one: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece bir eklenti koyabilirler. "
     other: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece %{count} eklenti koyabilirler."
   too_many_links:
@@ -92,17 +94,17 @@ tr_TR:
   next_page: "sonraki sayfa →"
   prev_page: "← önceki sayfa"
   page_num: "Sayfa %{num}"
-  topics_in_category: "'%{category}' kategorisindeki konular"
-  rss_posts_in_topic: " '%{topic}' konusuna ait RSS akışı"
-  rss_topics_in_category: "'%{category}' kategorisindeki konulara ait RSS akışı"
+  topics_in_category: "'%{category}' kategorisinde ki sorular"
+  rss_posts_in_topic: " '%{topic}' sorusuna ait RSS akışı"
+  rss_topics_in_category: "'%{category}' kategorisinde ki sorulara ait RSS akışı"
   author_wrote: "%{author} yazdı:"
   num_posts: "Gönderiler:"
   num_participants: "Katılımcılar:"
-  read_full_topic: "Konunun tamamını okuyun"
+  read_full_topic: "Sorunun tamamını okuyun"
   private_message_abbrev: "Özel Mesaj"
   rss_description:
-    latest: "En son konular"
-    hot: "Sıcak konular"
+    latest: "En son sorular"
+    hot: "Sıcak sorular"
   too_late_to_edit: "Gönderi çok uzun zaman önce oluşturulmuş. Artık düzenlenemez ya da silinemez. "
   groups:
     errors:
@@ -112,27 +114,27 @@ tr_TR:
       admins: "adminler"
       moderators: "moderatörler"
       staff: "görevli"
-      trust_level_0: "güven_seviyesi_0"
-      trust_level_1: "güven_seviyesi_1"
-      trust_level_2: "güven_seviyesi_2"
-      trust_level_3: "güven_seviyesi_3"
-      trust_level_4: "güven_seviyesi_4"
+      trust_level_0: "güven seviyesi 0"
+      trust_level_1: "güven seviyesi 1"
+      trust_level_2: "güven seviyesi 2"
+      trust_level_3: "güven seviyesi 3"
+      trust_level_4: "güven seviyesi 4"
   education:
     until_posts:
       other: "%{count} gönderi"
     new-topic: |+
-      %{site_name} &mdash sitesine hoşgeldiniz;  **yeni bir sohbet başlattığınız için teşekkür ederiz! **
+      %{site_name} sitesine hoşgeldiniz; yeni bir soru sorduğunuz için teşekkür ederiz!
 
-      - Başlık konunuzu en iyi şekilde açıklıyor mu? İlgi çekiyor mu?
+      - Başlık sorunuzu en iyi şekilde açıklıyor mu? İlgi çekiyor mu?
 
-      - Bu sohbet neyle ilgili? Kimin ilgisini çeker? Neden önemli? Topluluktan ne gibi cevaplar almayı bekliyorsunuz?
+      - Bu soru neyle ilgili? Kimin ilgisini çeker? Neden önemli? Topluluktan ne gibi cevaplar almayı bekliyor sunuz?
 
-      - Diğerlerinin konunuzu  *bulabilmesi * için doğru arama kelimeleri girin. Konunuzun benzer konularla gruplanması için bir kategori seçin.
+      - Diğerlerinin konunuzu bulabilmesi için doğru arama kelimeleri girin. Sorunuzun benzer sorularla gruplanması için bir kategori seçin.
 
       Daha fazlası için, [topluluk yönetmeliklerimize bakın](/guidelines). Bu yazı sadece ilk gönderinizde %{education_posts_text} gözükür.
 
     new-reply: |
-      %{site_name} &mdash sitesine hoşgeldiniz; katılımınız için teşekkür ederiz!
+      %{site_name} sitesine hoşgeldiniz; katılımınız için teşekkür ederiz!
 
       - Cevabınız sohbetin gelişmesine yardımcı oluyor mu?
 
@@ -142,20 +144,20 @@ tr_TR:
 
       Daha fazlası için,  [topluluk yönetmeliğine bakın](/guidelines). Bu yazı sadece ilk gönderinizde %{education_posts_text} gözükür.
     avatar: |
-      ### Hesabın için bir fotoğraf yüklemeye ne dersin?
+      ### Hesabın için bir fotoğraf yüklemek ister misin?
 
-      Birkaç konu açtın ve cevap bıraktın, fakat avatarın hala kendine has değil - tüm yeni kullanıcıların sahip olduğu varsayılan avatar.
+      Birkaç soru sordun ve cevapladın, fakat avatarın hala kendine has değil - tüm yeni kullanıcıların sahip olduğu varsayılan avatar.
 
        **[Profil sayfana](%{profile_path})** gitmeyi ve seni temsil eden özel bir resim yüklemeyi düşündün mü?
 
       Herkesin kendine has avatarı olduğunda, topluluktaki tartışmaları takip etmek ve sohbet esnasında ilginç insanlarla tanışmak daha kolay!
-    sequential_replies: "### Birden fazla gönderiyi aynı anda cevaplayabilirsin\n\nAynı konuya ardı ardına cevaplar yazmak yerine, lütfen önceki gönderilerden alıntı veya @isim referansları içeren tek bir cevap yaz. \n\nHerhangi bir yazıyı seçtikten sonra çıkan <b>alıntılayarak cevapla</b> butonuna tıklayarak alıntı yapmak için bir önceki cevabınızı düzenleyebilirsiniz.\n\nDaha az kısa, tekil cevaplardan ve iç içe yanıtlamalardan oluşan konuların okunması herkes için daha kolay oluyor.\n"
+    sequential_replies: "### Birden fazla gönderiyi aynı anda cevaplayabilirsin\n\nAynı soruya ardı ardına cevaplar yazmak yerine, lütfen önceki gönderilerden alıntı veya @kullaniciadi referansları içeren tek bir cevap yaz. \n\nHerhangi bir yazıyı seçtikten sonra çıkan <b>alıntılayarak cevapla</b> düğmesine tıklayarak alıntı yapmak için bir önceki cevabını düzenleyebilirsin.\n\nDaha az kısa, tekil cevaplardan ve iç içe yanıtlamalardan oluşan soruaların okunması herkes için daha kolay oluyor.\n"
     dominating_topic: "###Sohbete başkalarının katılmasına izin verin\n\nBu konunun sizin için önemli olduğunu görüyoruz &ndash; buradaki cevapların %{percent}% oranından daha fazlasını siz göndermişsiniz. \n\nDiğerlerinin de kendi fikirlerini paylaşmaları için onlara yeteri kadar zaman tanıdığınıza emin misiniz?\n"
-    too_many_replies: "### Bu konu için cevap limitinizi doldurdunuz\n\nÜzgünüz, ancak geçici olarak, yeni kullanıcılar aynı konu içinde en fazla %{newuser_max_replies_per_topic} cevap yazabiliyorlar. \n\nYeni bir cevap yazmak yerine, önceki cevaplarınızı düzenlemeyi, ya da başka konulara göz atmayı düşünün.\n"
+    too_many_replies: "### Bu soru için cevap limitinizi doldurdunuz\n\nÜzgünüz, ancak geçici olarak, yeni kullanıcılar aynı soru içinde en fazla %{newuser_max_replies_per_topic} cevap yazabiliyorlar. \n\nYeni bir cevap yazmak yerine, önceki cevaplarınızı düzenlemeyi, ya da başka sorulara göz atmayı düşünün.\n"
     reviving_old_topic: |
-      ### Bu konuyu tekrar canlandırmak mı istediniz?
+      ### Bu soruyu tekrar canlandırmak mı istediniz?
 
-      Bu başlığa en son %{days} gün önce cevap yazılmış. Cevabınız, bu konuyu listesinin en üstüne taşıyacak ve geçmişte sohbete katılmış olan tüm yazarlara bildirim gönderecek.
+      Bu soruya en son %{days} gün önce cevap yazılmış. Cevabınız, bu soruyu kategorisinin en üstüne taşıyacak ve geçmişte sohbete katılmış olan tüm yazarlara bildirim gönderecek.
 
       Bu eski sohbeti devam ettirmek istediğinize emin misiniz?
   activerecord:
@@ -189,12 +191,12 @@ tr_TR:
             hex:
               invalid: "geçerli bir renk değil"
   user_profile:
-    no_info_me: "<div class='missing-profile'>Profilinizdeki Hakkımda bölümü boş, <a href='/users/%{username_lower}/preferences/about-me'>doldurmak ister misiniz?</a></div>"
+    no_info_me: "<div class='missing-profile'>Profilinizde ki Hakkımda bölümü boş, <a href='/users/%{username_lower}/preferences/about-me'>doldurmak ister misiniz?</a></div>"
     no_info_other: "<div class='missing-profile'>%{name} profilinde Hakkımda kısmına henüz bir şey girmedi</div>"
   vip_category_name: "Lobi"
   vip_category_description: "Güven seviyesi 3 ve üzerinde olan üyelere özel kategori."
   meta_category_name: "Meta"
-  meta_category_description: "Bu site, sitenin organizasyonu, nasıl çalıştığı ve nasıl geliştirilebileceği ile ilgili tartışma alanı."
+  meta_category_description: "Sitenin organizasyonu, nasıl çalıştığı ve nasıl geliştirilebileceği ile ilgili tartışma alanı."
   staff_category_name: "Görevliler"
   staff_category_description: "Görevliler arası konuşmalar için özel kategori. Konular sadece admin ve moderatörlere gözükür."
   assets_topic_body: "Bu kalıcı bir konudur, sadece görevlilere gözükür, site tasarımında kullanılan resim ve dosyaların depolanması için kullanılır. Sakın silmeyin!\n\n\nİşleyiş aşağıdaki gibidir:\n\n\n1. Bu konuyu cevaplayın.\n2. Logolar, favicon'lar vb. için kullanmak istediğiniz resimleri buraya yükleyin. (Gönderi düzenleyicisindeki yükleme düğmesini kullanabilir, veya resimleri sürükleyip bırakabilir veya kopyalayıp yapıştırabilirsiniz.)\n3. Cevabı gönderin.\n4. Yeni gönderinizdeki resimlere sağ tıklayarak ya da düzenleme ikonuna tıklayıp gönderinizi düzenleyerek resimlerin bağlantılarına ulaşabilirsiniz. Bağlantıları kopyalayın.\n5. Bağlantıları [basit ayarlar](/admin/site_settings/category/required) ilgili bölümlere yapıştırın.\n\n\nEğer farklı dosya tipleri yükleyebilmek istiyorsanız, [dosya ayarları](/admin/site_settings/category/files) sayfasındaki `authorized_extensions` ayarını düzenleyin."
