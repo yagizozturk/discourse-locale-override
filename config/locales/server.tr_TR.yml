@@ -352,15 +352,15 @@ tr_TR:
     please_continue: "Hesabınız doğrulandı; şimdi ana sayfaya yönlendirileceksiniz."
     continue_button: "%{site_name} adresine devam edin"
     welcome_to: "%{site_name} sitesine hoşgeldiniz!"
-    approval_required: "Bu foruma erişebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında email ile bilgilendirileceksiniz!"
+    approval_required: "Siteye erişebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında email ile bilgilendirileceksiniz!"
   post_action_types:
     off_topic:
-      title: 'Konu dışı'
-      description: 'Bu gönderinin, başlık ve ilk gönderide belirtilen mevcut tartışmayla alakası yok, ve büyük ihtimal başka bir yere taşınmalı.'
-      long_form: 'konu dışı olarak bayraklandı'
+      title: 'Soru dışı'
+      description: 'Bu gönderinin, başlık ve ilk gönderide belirtilen mevcut tartışmayla bağlantısı yok, ve büyük ihtimal başka bir yere taşınmalı.'
+      long_form: 'soru dışı olarak bayraklandı'
     spam:
       title: 'Spam'
-      description: 'Bu gönderi reklam içeriklidir. Mevcut konuya alakası ya da faydası yoktur.'
+      description: 'Bu gönderi reklam içeriklidir. Mevcut soruyla bağlantısı ya da faydası yoktur.'
       long_form: 'spam olarak bayraklanmış'
     inappropriate:
       title: 'Uygunsuz'
@@ -379,21 +379,21 @@ tr_TR:
       email_title: '"%{title}" başlığındaki bir gönderinin moderatör tarafından kontrol edilmesi gerekiyor.'
       email_body: "%{link}\n\n%{message}"
     bookmark:
-      title: 'İşaretle'
-      description: 'Bu gönderiyi işaretle'
-      long_form: 'bu gönderi işaretlendi'
+      title: 'Yer imlerine ekle'
+      description: 'Bu gönderiyi yer imlerine ekle'
+      long_form: 'bu gönderi yer imlerine eklendi'
     like:
       title: 'Beğen'
       description: 'Bu gönderiyi beğen'
-      long_form: 'bu beğenildi'
+      long_form: 'beğenildi'
     vote:
       title: 'Oyla'
       description: 'Bu gönderiyi oyla'
-      long_form: 'bu gönderi oylandı'
+      long_form: 'gönderi oylandı'
   topic_flag_types:
     spam:
       title: 'Spam'
-      description: 'Bu konu reklam içeriklidir. Bu siteye alakası ya da faydası yoktur.'
+      description: 'Bu soru reklam içeriklidir. Platformla bağlantısı ya da faydası yoktur.'
       long_form: 'spam olarak bayraklandı'
     inappropriate:
       title: 'Uygunsuz'
@@ -403,7 +403,7 @@ tr_TR:
       title: "Başka Bir Şey"
       description: 'Bu gönderi <a href="/guidelines">yönergeler</a>, <a href="%{tos_url}">kullanıcı sözleşmesi</a> veya yukarıda belirtilmeyen bir nedenden dolayı genel bir moderatör kontrolü gerektiriyor.'
       long_form: 'moderatörün ilgisi için bayraklandı'
-      email_title: '"%{title}" konu başlığının moderatör tarafından kontrol edilmesi gerekiyor'
+      email_title: '"%{title}" soru başlığının moderatör tarafından kontrol edilmesi gerekiyor'
       email_body: "%{link}\n\n%{message}"
   flagging:
     you_must_edit: '<p>Gönderiniz topluluk tarafından bayraklandı. Lütfen <a href="/my/private-messages">özel mesajlarınıza göz atın</a>.</p>'
@@ -437,7 +437,7 @@ tr_TR:
       xaxis: "Gün"
       yaxis: "Yeni kullanıcı sayısı"
     topics:
-      title: "Konular"
+      title: "Sorular"
       xaxis: "Gün"
       yaxis: "Yeni konu sayısı"
     posts:
@@ -453,7 +453,7 @@ tr_TR:
       xaxis: "Gün"
       yaxis: "Bayrakların sayısı"
     bookmarks:
-      title: "İşaretlenenler"
+      title: "Yer İmlerine Eklenenler"
       xaxis: "Gün"
       yaxis: "Yeni işaretlenenlerin sayısı"
     starred:
@@ -492,16 +492,16 @@ tr_TR:
       title: "En Çok Atıfta Bulunanlar"
       xaxis: "Kullanıcı"
       num_clicks: "Tıklamalar"
-      num_topics: "Konular"
+      num_topics: "Sorular"
     top_traffic_sources:
       title: "En İyi Trafik Kaynakları"
       xaxis: "Alan Adı"
       num_clicks: "Tıklamalar"
-      num_topics: "Konular"
+      num_topics: "Sorular"
       num_users: "Kullanıcılar"
     top_referred_topics:
-      title: "En Çok Atıfta Bulunulan Konular"
-      xaxis: "Konu"
+      title: "En Çok Atıfta Bulunulan Sorular"
+      xaxis: "Soru"
       num_clicks: "Tıklamalar"
   dashboard:
     rails_env_warning: "Sunucunuz %{env} modunda çalışıyor."
@@ -535,7 +535,7 @@ tr_TR:
       title: "Yeni Kullanıcı Eğitimi: İlk Cevaplar"
       description: "Yeni kullanıcılar, ilk iki cevaplarını yazmaya başladıklarında, pop-up son-dakika yardım kılavuzu metin düzenleyecisinin üstünde otomatik olarak çıksın."
     education_new_topic:
-      title: "Yeni Kullanıcı Eğitimi: İlk Konular"
+      title: "Yeni Kullanıcı Eğitimi: İlk Sorular"
       description: "Yeni kullanıcılar, ilk iki cevaplarını yazmaya başladıklarında, pop-up son-dakika yardım kılavuzu metin düzenleyecisinin üstünde otomatik olarak çıksın."
     usage_tips:
       title: "Yeni Kullanıcı Kılavuzu"
