@@ -300,7 +300,7 @@ tr_TR:
     distance_in_words_verbose:
       half_a_minute: "şu anda"
       less_than_x_seconds:
-        one "< 1sn"
+        one: "< 1sn"
         other: "şu anda"
       x_seconds:
         one: "1 saniye önce"
