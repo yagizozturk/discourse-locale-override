@@ -199,113 +199,138 @@ tr_TR:
   meta_category_description: "Sitenin organizasyonu, nasıl çalıştığı ve nasıl geliştirilebileceği ile ilgili tartışma alanı."
   staff_category_name: "Görevliler"
   staff_category_description: "Görevliler arası konuşmalar için özel kategori. Konular sadece admin ve moderatörlere gözükür."
-  assets_topic_body: "Bu kalıcı bir konudur, sadece görevlilere gözükür, site tasarımında kullanılan resim ve dosyaların depolanması için kullanılır. Sakın silmeyin!\n\n\nİşleyiş aşağıdaki gibidir:\n\n\n1. Bu konuyu cevaplayın.\n2. Logolar, favicon'lar vb. için kullanmak istediğiniz resimleri buraya yükleyin. (Gönderi düzenleyicisindeki yükleme düğmesini kullanabilir, veya resimleri sürükleyip bırakabilir veya kopyalayıp yapıştırabilirsiniz.)\n3. Cevabı gönderin.\n4. Yeni gönderinizdeki resimlere sağ tıklayarak ya da düzenleme ikonuna tıklayıp gönderinizi düzenleyerek resimlerin bağlantılarına ulaşabilirsiniz. Bağlantıları kopyalayın.\n5. Bağlantıları [basit ayarlar](/admin/site_settings/category/required) ilgili bölümlere yapıştırın.\n\n\nEğer farklı dosya tipleri yükleyebilmek istiyorsanız, [dosya ayarları](/admin/site_settings/category/files) sayfasındaki `authorized_extensions` ayarını düzenleyin."
+  assets_topic_body: "Bu kalıcı bir sorudur, sadece görevlilere gözükür, site tasarımında kullanılan resim ve dosyaların depolanması için kullanılır. Sakın silmeyin!\n\n\nİşleyiş aşağıdaki gibidir:\n\n\n1. Bu soruyu cevaplayın.\n2. Logolar, favicon'lar vb. için kullanmak istediğiniz resimleri buraya yükleyin. (Gönderi düzenleyicisindeki yükleme düğmesini kullanabilir, veya resimleri sürükleyip bırakabilir veya kopyalayıp yapıştırabilirsiniz.)\n3. Cevabı gönderin.\n4. Yeni gönderinizdeki resimlere sağ tıklayarak ya da düzenleme ikonuna tıklayıp gönderinizi düzenleyerek resimlerin bağlantılarına ulaşabilirsiniz. Bağlantıları kopyalayın.\n5. Bağlantıları [basit ayarlar](/admin/site_settings/category/required) ilgili bölümlere yapıştırın.\n\n\nEğer farklı dosya tipleri yükleyebilmek istiyorsanız, [dosya ayarları](/admin/site_settings/category/files) sayfasındaki `authorized_extensions` ayarını düzenleyin."
   lounge_welcome:
     title: "Lobiye hoşgeldiniz"
     body: |2
 
       Tebrikler! :confetti_ball:
 
-      Bu konuyu görebiliyorsanız,  yakın süre önce **standart** (güven seviyesi 3) seviyesine terfi etmişsiniz demektir.
+      Bu başlığı görebiliyorsanız,  yakın süre önce **Veloricaptor** (güven seviyesi 3) seviyesine terfi etmişsiniz demektir.
 
       Artık &hellip;
 
-      * Herhangi bir konunun başlık bilgisini düzenleyebilirsiniz
-      * Herhangi bir konunun kategorisini değiştirebilirsiniz
+      * Herhangi bir sorunun başlık bilgisini düzenleyebilirsiniz
+      * Herhangi bir sorunun kategorisini değiştirebilirsiniz
       * Eklediğiniz linkler takip edilebilir durumunda olacaktır ([otomatik nofollow] (http://en.wikipedia.org/wiki/Nofollow) kaldırıldı)
-      * Sadece 3. güven seviyesi ve üzerindekilere gözüken özel Lobi kategorisine erişebilirsiniz
+      * Sadece Veloricaptor güven seviyesi ve üzerindekilere gözüken özel Lobi kategorisine erişebilirsiniz
       * Tek bayraklamayla spam içerikli mesajları gizleyebilirsiniz
 
-      [Şu anki standart seviyedeki arkadaşların listesi(/badges/3/regular). Merhaba demeyi unutmayın.
+      [Şu anki Veloricaptor seviyedeki arkadaşların listesi(/badges/3/regular). Merhaba demeyi unutmayın.
 
       Bu topluluğun önemli bir parçası olduğunuz için teşekkür ederiz!
 
-      (Güven seviyeleriyle ilgili daha fazla bilgi için, [bu konuya bakın][trust]. Lütfen, sadece sürekli olarak kriterlere uyan üyelerin standart seviyede kalacağını unutmayın.)
+      (Güven seviyeleriyle ilgili daha fazla bilgi için, [bu konuya bakın][trust]. Lütfen, sadece sürekli olarak kriterlere uyan üyelerin Brachiosaurus seviyede kalacağını unutmayın.)
 
       [trust]: https://meta.discourse.org/t/what-do-user-trust-levels-do/4924
   category:
     topic_prefix: "%{category} kategorisi hakkında "
-    replace_paragraph: "[Bu paragrafın yerine kategorinizin kısa bir açıklamasını girin. Buraya yazılanlar kategori seçim alanında görüneceği için, açıklamanızı 200 karakterin altında tutmaya çalışın. Siz bu metni düzenleyene veya herhangi bir konu yaratana kadar bu kategori, kategoriler sayfasında gözükmeyecek.]"
-    post_template: "%{replace_paragraph}\n\nDaha uzun bir açıklama, kategori yönergeleri veya kuralları oluşturmak için aşağıdaki paragrafları kullanın.\n\nHerhangi bir tartışma için düşünülebilecek bazı maddeler:\n\n- Bu kategorinin amacı ne? İnsanlar konu oluştururken neden bu kategoriyi seçmeliler?\n\n- Bu kategorinin sahip olduğumuz diğer mevcut kategorilerden farkı ne?\n\n- Bu kategoriye ihtiyacımız var mı?\n\n- Bunu başka bir kategoriyle birleştirmeli miyiz, yoksa daha fazla kategoriye mi bölmeli miyiz?\n"
+    replace_paragraph: "[Bu paragrafın yerine kategorinizin kısa bir açıklamasını girin. Buraya yazılanlar kategori seçim alanında görüneceği için, açıklamanızı 200 karakterin altında tutmaya çalışın. Siz bu metni düzenleyene veya herhangi bir soru yaratana kadar bu kategori, kategoriler sayfasında gözükmeyecek.]"
+    post_template: "%{replace_paragraph}\n\nDaha uzun bir açıklama, kategori yönergeleri veya kuralları oluşturmak için aşağıdaki paragrafları kullanın.\n\nHerhangi bir tartışma için düşünülebilecek bazı maddeler:\n\n- Bu kategorinin amacı ne? İnsanlar soru oluştururken neden bu kategoriyi seçmeliler?\n\n- Bu kategorinin sahip olduğumuz diğer mevcut kategorilerden farkı ne?\n\n- Bu kategoriye ihtiyacımız var mı?\n\n- Bunu başka bir kategoriyle birleştirmeli miyiz, yoksa daha fazla kategoriye mi bölmeli miyiz?\n"
     errors:
-      uncategorized_parent: "Kategorisizin üst kategorisi olamaz"
+      uncategorized_parent: "Kategorizelenmemiş kategorisinin üst kategorisi olamaz"
       self_parent: "Alt kategorinin üst kategorisi kendisi olamaz"
       depth: "Bir alt kategori başka bir alt kategorinin altında yer alamaz"
     cannot_delete:
-      uncategorized: "Kategorisiz silinemez"
+      uncategorized: "Kategorizelenmemiş silinemez"
       has_subcategories: "Alt kategorileri bulunduğu için bu kategori silinemez."
       topic_exists:
-        other: "Bu kategoriyi silemezsiniz çünkü %{count} konusu bulunuyor. En eski konu; %{topic_link}."
-      topic_exists_no_oldest: "Bu kategoriyi silemezsiniz çünkü %{count} konusu bulunuyor."
+        other: "Bu kategoriyi silemezsiniz çünkü %{count} sorusu bulunuyor. En eski konu; %{topic_link}."
+      topic_exists_no_oldest: "Bu kategoriyi silemezsiniz çünkü %{count} sorusu bulunuyor."
   trust_levels:
     newuser:
-      title: "yeni kullanıcı"
+      title: "Dino"
     basic:
-      title: "acemi kullanıcı"
+      title: "Brachiosaurus"
     regular:
-      title: "üye"
+      title: "Veloricaptor"
     leader:
-      title: "standart"
+      title: "T-Rex"
     elder:
-      title: "lider"
+      title: "Bilge T-Rex"
     change_failed_explanation: " %{user_name} adlı kullanıcıyı '%{new_trust_level}' seviyesine düşürmeye çalıştınız. Ancak, halihazırda kullanıcının güven seviyesi zaten '%{current_trust_level}'. %{user_name} '%{current_trust_level}' seviyesinde kalacak - eğer seviyesini düşürmek istiyorsanız öncelikle güven seviyesini kilitlemelisiniz"
   rate_limiter:
     slow_down: "Bu işlemi çok fazla kere tekrar ettiniz, lütfen daha sonra tekrar deneyin"
     too_many_requests: "Bu işlem için günlük limitinizi aştınız. Lütfen tekrar denemek için %{time_left} bekleyin. "
     hours:
+      one: "1 saat"
       other: "%{count} saat"
     minutes:
+      one: "1 dakika"
       other: "%{count} dakika"
     seconds:
+      one: "1 saniye"
       other: "%{count} saniye"
   datetime:
     distance_in_words:
       half_a_minute: "< 1dk"
       less_than_x_seconds:
+        one: "< 1sn"
         other: "< %{count}sn"
       x_seconds:
+        one: "1sn"
         other: "%{count}sn"
       less_than_x_minutes:
+        one: "< 1dk"
         other: "< %{count}dk"
       x_minutes:
+        one: "1dk"
         other: "%{count}dk"
       about_x_hours:
+        one: "1sa"
         other: "%{count}sa"
       x_days:
+        one: "1gün"
         other: "%{count}gün"
       about_x_months:
+        one: "1ay"
         other: "%{count}ay"
       x_months:
+        one: "1ay"
         other: "%{count}ay"
       about_x_years:
+        one: "1yıl"
         other: "%{count}yıl"
       over_x_years:
+        one: "> 1yıl"
         other: "> %{count}yıl"
       almost_x_years:
+        one: "1yıl"
         other: "%{count}yıl"
     distance_in_words_verbose:
       half_a_minute: "şu anda"
       less_than_x_seconds:
+        one "< 1sn"
         other: "şu anda"
       x_seconds:
+        one: "1 saniye önce"
         other: "%{count} saniye önce"
       less_than_x_minutes:
+        one: "son 1 dakika içerisinde"
         other: "son %{count} dakika içerisinde"
       x_minutes:
+        one: "1 dakika önce"
         other: "%{count} dakika önce"
       about_x_hours:
+        one: "1 saat önce"
         other: "%{count} saat önce"
       x_days:
+        one: "1 gün önce"
         other: "%{count} gün önce"
       about_x_months:
+        one: "yaklaşık 1 ay önce"
         other: "yaklaşık %{count} ay önce"
       x_months:
+        one: "1 ay önce"
         other: "%{count} ay önce"
       about_x_years:
+        one: "yaklaşık 1 yıl önce"
         other: "yaklaşık %{count} yıl önce"
       over_x_years:
+        one: "1 yıldan daha fazla önce"
         other: "%{count} yıldan daha fazla önce"
       almost_x_years:
+        one: "yaklaşık 1 yıl önce"
         other: "yaklaşık %{count} yıl önce"
   password_reset:
     no_token: "Üzgünüz, erişim jetonunuzun süresi doldu. Lütfen şifrenizi sıfırlamayı tekrar deneyin."
