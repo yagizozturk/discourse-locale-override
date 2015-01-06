@@ -63,7 +63,7 @@ tr_TR:
     imported_from: "Bu ilave bir tartışmadır, asıl soru adresi %{link}"
     in_reply_to: "▶ %{username}"
     replies:
-      one "1 cevap"
+      one: "1 cevap"
       other: "%{count} cevap"
   too_many_mentions:
     zero: "Üzgünüz, diğer kullanıcılardan bahsedemezsiniz."
