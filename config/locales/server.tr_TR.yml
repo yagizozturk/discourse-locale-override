@@ -239,15 +239,15 @@ tr_TR:
       topic_exists_no_oldest: "Bu kategoriyi silemezsiniz çünkü %{count} sorusu bulunuyor."
   trust_levels:
     newuser:
-      title: "Dino"
+      title: "Baby Dino"
     basic:
       title: "Brachiosaurus"
+    member:
+      title: "Pterosaurs"
     regular:
       title: "Veloricaptor"
     leader:
       title: "T-Rex"
-    elder:
-      title: "Bilge T-Rex"
     change_failed_explanation: " %{user_name} adlı kullanıcıyı '%{new_trust_level}' seviyesine düşürmeye çalıştınız. Ancak, halihazırda kullanıcının güven seviyesi zaten '%{current_trust_level}'. %{user_name} '%{current_trust_level}' seviyesinde kalacak - eğer seviyesini düşürmek istiyorsanız öncelikle güven seviyesini kilitlemelisiniz"
   rate_limiter:
     slow_down: "Bu işlemi çok fazla kere tekrar ettiniz, lütfen daha sonra tekrar deneyin"
