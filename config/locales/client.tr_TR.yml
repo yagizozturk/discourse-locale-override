@@ -2024,10 +2024,13 @@ tr_TR:
       allow_title: "rozet ünvan olarak kullanılabilsin?"
       multiple_grant: "birden fazla kez verildi?"
       badge_count:
+        one: "1 Rozet"
         other: "%{count} Rozet"
       more_badges:
+        one: "1 Daha"
         other: "+%{count} Daha"
       granted:
+        one: "1 kez verildi"
         other: "%{count} kez verildi"
       select_badge_for_title: Ünvan olarak kullanmak için bir rozet seçin
       none: "<none>"
