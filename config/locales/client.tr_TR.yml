@@ -104,8 +104,8 @@ tr_TR:
     show_help: "yardım"
     links: "Bağlantılar"
     links_lowercase: "bağlantılar"
-    faq: "SSS/Yönergeler"
-    guidelines: "Yönergeler"
+    faq: "SSS / Topluluk Yönergeleri"
+    guidelines: "Tpluluk Yönergeleri"
     privacy_policy: "Gizlilik İlkeleri"
     privacy: "Gizlilik İlkeleri"
     terms_of_service: "Üyelik Sözleşmesi"
@@ -2117,7 +2117,7 @@ tr_TR:
           name: İlk alıntı
           description: Bir kullanıcıyı alıntıladı
         read_guidelines:
-          name: Yönergeler okundu
+          name: Topluluk yönergeleri okundu
           description: <a href="/guidelines">Topluluk yönergelerini</a> oku
         reader:
           name: Okuyucu
