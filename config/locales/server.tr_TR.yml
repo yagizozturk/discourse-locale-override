@@ -923,8 +923,8 @@ tr_TR:
   topic_statuses:
     archived_enabled: "Konu şimdi arşivlendi. Donduruldu ve herhangi bir şekilde değişiklik yapılamaz."
     archived_disabled: "Konu şimdi arşivden çıkarıldı. Artık donmuş değil, değiştirilebilir."
-    closed_enabled: "Konu şimdi kapatıldı. Artık yeni cevap yazılmasına izin yok. "
-    closed_disabled: "Konu şimdi açıldı. Yeni cevaplara izin var."
+    closed_enabled: "Soru kapatıldı, artık maalesef yeni cevap girilemeyecek. Genellikle kesin cevap içeren veya yeni bir görüş katmanın pek mümkün olmadığı sorular kapatılır."
+    closed_disabled: "Soru açıldı. Tekrar cevap girilebilecek."
     autoclosed_enabled_days:
       other: "Bu konu %{count} gün sonunda konu otomatik olarak kapatıldı. Yeni cevap girilmesine izin verilmiyor."
     autoclosed_enabled_hours:
