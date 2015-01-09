@@ -814,17 +814,17 @@ tr_TR:
           '0_2': 'Bu soruya ait tüm bildirimleri görmezden geliyorsunuz.'
           '0': 'Bu soruya ait tüm bildirimleri görmezden geliyorsunuz.'
         watching_pm:
-          title: "Gözleniyor"
-          description: "Bu özel mesajlaşmadaki her yeni gönderi için bir bildirim alacaksınız. Okunmamış ve yeni gönderilerin sayısı sorunun yanında belirecek."
+          title: "Takip Ediliyor"
+          description: "Bu özel mesajlaşmadaki her yeni gönderi için bir bildirim alacaksınız."
         watching:
-          title: "Gözleniyor"
-          description: "Bu soruda ki her yeni gönderi için bir bildirim alacaksınız. Okunmamış ve yeni gönderilerin sayısı sorunun yanında belirecek."
+          title: "Takip Ediliyor"
+          description: "Bu soruda ki her yeni gönderi için bir bildirim alacaksınız. Ayrıca okunmamış ve yeni gönderi sayısı sorunun yanında rakam ile belirecek."
         tracking_pm:
-          title: "Takip Ediliyor"
-          description: "Okunmamış ve yeni gönderi sayısı özel mesaj bölümünün yanında belirecek. Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
+          title: "Sadece Gözleniyor"
+          description: "Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
         tracking:
-          title: "Takip Ediliyor"
-          description: "Okunmamış ve yeni gönderi sayısı başlığın yanında belirecek. Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
+          title: "Sadece Gözleniyor"
+          description: "Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız. Ayrıca okunmamış ve yeni gönderi sayısı sorunun yanında rakam ile belirecek."
         regular:
           title: "Standart"
           description: "Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
@@ -836,7 +836,7 @@ tr_TR:
           description: "Bu özel mesajlaşmayla ilgili hiç bir bildirim almayacaksınız."
         muted:
           title: "Susturuldu"
-          description: "Bu soru okunmamışlar sekmenizde belirmeyecek, ve hakkında hiç bir bildirim almayacaksınız."
+          description: "Bu soru hakkında hiç bir bildirim almayacaksınız. Ayrıca soru okunmamışlar sekmenizde belirmeyecek."
       actions:
         recover: "Soruyu Geri Getir"
         delete: "Soruyu Sil"
@@ -1164,11 +1164,11 @@ tr_TR:
       parent: "Üst Kategori"
       notifications:
         watching:
-          title: "Gözleniyor"
-          description: "Bu kategorilerde ki tüm yeni soruları otomatik olarak gözleyeceksiniz. Tüm yeni cevaplar ve sorularla ilgili bildirim alacaksınız, ayrıca okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında belirecek. "
-        tracking:
           title: "Takip Ediliyor"
-          description: "Bu kategorilerde ki tüm yeni soruları otomatik olarak takip edeceksiniz. Okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında belirecek."
+          description: "Bu kategorilerde ki tüm yeni soruları otomatik olarak takip edeceksiniz. Tüm yeni cevaplar ve sorularla ilgili bildirim alacaksınız, ayrıca okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında rakamla belirecek."
+        tracking:
+          title: "Sadece Gözleniyor"
+          description: "Bu kategorilerde ki tüm yeni soruları otomatik olarak sadece gözleyeceksiniz. Okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında rakam ile belirecek."
         regular:
           title: "Standart"
           description: "Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
