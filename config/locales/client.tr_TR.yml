@@ -934,7 +934,7 @@ tr_TR:
       post_number: "gönderi {{number}}"
       in_reply_to: "cevapla"
       last_edited_on: "gönderinin en son düzenlenme tarihi"
-      reply_as_new_topic: "Bağlantılı Soru Oluşturarak Cevapla"
+      reply_as_new_topic: "Alakalı Soru Oluşturarak Cevapla"
       continue_discussion: "{{postLink}} Gönderisinden tartışmaya devam ediliyor:"
       follow_quote: "alıntılanan mesaja git"
       show_full: "Gönderinin Tamamını Göster"
@@ -2008,7 +2008,7 @@ tr_TR:
         title: 'Aksiyonlar'
         star: '<b>f</b> Konuyu yıldızla'
         share_post: '<b>s</b> Gönderiyi paylaş'
-        reply_as_new_topic: '<b>t</b> Bağlantılı konu olarak cevapla'
+        reply_as_new_topic: '<b>t</b> Alakalı soru olarak cevapla'
         reply_post: '<b>r</b> Gönderiyi cevapla'
         quote_post: '<b>q</b> Gönderiyi alıntıla'
         like: '<b>l</b> Gönderiyi beğen'
