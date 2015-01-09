@@ -799,14 +799,14 @@ tr_TR:
         position: "%{total} gönderi arasından %{current}."
       notifications:
         reasons:
-          '3_6': 'Bu kategoriyi gözlediğiniz için bildirimlerini alacaksınız.'
+          '3_6': 'Bu kategoriyi takip ettiğiniz için bildirimlerini alacaksınız.'
           '3_5': 'Bu soruyu otomatik olarak gözlemeye başladığınız için bildirimlerini alacaksınız.'
-          '3_2': 'Bu soruyu gözlediğiniz için bildirimlerini alacaksınız.'
+          '3_2': 'Bu soruyu takip ettiğiniz için bildirimlerini alacaksınız.'
           '3_1': 'Bu soruyu siz oluşturduğunuz için bildirimlerini alacaksınız.'
-          '3': 'Bu soruyu gözlediğiniz için bildirimlerini alacaksınız.'
-          '2_8': 'Be kategoriyi takip ettiğiniz için bildirimlerini alacaksınız.'
+          '3': 'Bu soruyu takip ettiğiniz için bildirimlerini alacaksınız.'
+          '2_8': 'Be kategoriyi gözlediğiniz için bildirimlerini alacaksınız.'
           '2_4': 'Bu soruya cevap yazdığınız için bildirimlerini alacaksınız.'
-          '2_2': 'Bu soruyu takip ettiğiniz için bildirimlerini alacaksınız.'
+          '2_2': 'Bu soruyu gözlediğiniz için bildirimlerini alacaksınız.'
           '2': '<a href="/users/{{username}}/preferences">Bu soruyu okuduğunuz için</a> bildirimlerini alacaksınız.'
           '1_2': 'Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız.'
           '1': 'Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız.'
