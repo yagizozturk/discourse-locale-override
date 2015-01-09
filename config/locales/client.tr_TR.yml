@@ -1995,6 +1995,7 @@ tr_TR:
         back: '<b>u</b> Geri'
         up_down: '<b>k</b>/<b>j</b> seçileni taşı &uarr; &darr;'
         open: '<b>o</b> or <b>Enter</b> Seçili konuyu aç'
+        next_prev: '<b>shift</b>+<b>j</b>/<b>shift</b>+<b>k</b> Sonraki/önceki'
       application:
         title: 'Uygulama'
         create: '<b>c</b> Yeni konu aç'
@@ -2009,7 +2010,10 @@ tr_TR:
       actions:
         title: 'Aksiyonlar'
         star: '<b>f</b> Konuyu yıldızla'
+        pin_unpin_topic: '<b>shift</b>+<b>p</b> Soruyu başa tuttur/ma'
+        share_topic: '<b>shift</b>+<b>s</b> Soruyu paylaş'
         share_post: '<b>s</b> Gönderiyi paylaş'
+        reply_topic: '<b>shift</b>+<b>r</b> Soruyu cevapla'
         reply_as_new_topic: '<b>t</b> Alakalı soru olarak cevapla'
         reply_post: '<b>r</b> Gönderiyi cevapla'
         quote_post: '<b>q</b> Gönderiyi alıntıla'
