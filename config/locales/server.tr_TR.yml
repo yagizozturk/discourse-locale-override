@@ -239,7 +239,7 @@ tr_TR:
       topic_exists_no_oldest: "Bu kategoriyi silemezsiniz çünkü %{count} sorusu bulunuyor."
   trust_levels:
     newuser:
-      title: "Dino"
+      title: "Bebek Dino"
     basic:
       title: "Brachiosaurus"
     regular:
