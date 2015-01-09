@@ -1974,6 +1974,13 @@ tr_TR:
             with_post: '<span class="username">%{username}</span> buradaki gönderi için %{link} '
             with_post_time: <span class="username">%{username}</span> %{link} gönderisi için <span class="time">%{time}</span> zamanında
             with_time: <span class="username">%{username}</span> at <span class="time">%{time}</span>
+    emoji:
+        title: "Emoji"
+        help: "Yeni Emoji ekle(herkes görüntüleyebilir)"
+        add: "Yeni Emoji Ekle"
+        name: "İsim"
+        image: "Resim"
+        delete_confirm: "Silmek istediğinize emin misiniz :%{name}: emoji?"
     lightbox:
       download: "indir"
     search_help:
