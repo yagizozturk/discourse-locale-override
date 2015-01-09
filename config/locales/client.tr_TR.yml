@@ -217,7 +217,7 @@ tr_TR:
       '12': "Yollanmış ögeler"
       '13': "Gelen Kutusu"
     categories:
-      all: "bütün kategoriler"
+      all: "Bütün Kategoriler"
       all_subcategories: "hepsi"
       no_subcategory: "hiçbiri"
       category: "Kategori"
@@ -706,9 +706,9 @@ tr_TR:
         selected:
           other: "<b>{{count}}</b> soru seçtiniz."
       none:
-        starred: "Yıldızlı sorunuz yok."
-        unread: "Okunmamış sorunuz yok."
-        new: "Yeni sorunuz yok"
+        starred: "Yıldızlı soru yok."
+        unread: "Okunmamış soru yok."
+        new: "Yeni soru yok"
         read: "Henüz herhangi bir soru okumadınız."
         posted: "Henüz herhangi bir soruda gönderi oluşturmadınız."
         latest: "Son eklenen bir soru yok."
@@ -716,8 +716,8 @@ tr_TR:
         category: "{{category}} sorusu yok."
         top: "Popüler bir soru yok."
         educate:
-          new: '<p>Yeni sorularınız burada belirir.</p><p>Varsayılan ayarlarda, son 2 gün içerisinde yaratılan sorular yeni sayılır ve <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">yeni</span> işaretiyle gösterilir.</p><p>Dilerseniz bu ayarları <a href="%{userPrefsUrl}">ayarlar</a>sayfanızdan düzenleyebilirsiniz.</p>'
-          unread: '<p> Okunmamış sorularınız burada belirecek. </p><p> Varsayılan ayarlarda, şu durumlarda sorular okunmamış sayılır ve okunmamışların sayısı <span class="badge new-posts badge-notification">1</span> gösterilir: </p><ul><li>Soruyu oluşturduysanız</li><li>Soruyu cevapladıysanız</li><li>Soruyu 4 dakikadan uzun bir süre okuduysanız</li></ul><p> Ya da, sorunun altında bulunan bildirim kontrol bölümünden, soruyu Takip Edildi veya Gözlendi diye işaretlediyseniz.</p><p>Bu ayarları <a href="%{userPrefsUrl}">ayarlar</a> sayfasından değiştirebilirsiniz.</p>'
+          new: '<p>Yeni sorularınız burada belirir.</p><p>Varsayılan ayarlarda, son 2 gün içerisinde yaratılan sorular yeni sayılır ve <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">yeni</span> işaretiyle gösterilir.</p><p>Dilerseniz bu ayarları <a href="%{userPrefsUrl}">ayarlar</a> sayfanızdan düzenleyebilirsiniz.</p>'
+          unread: '<p> Sorualardaki okunmamış güncellemeler burada belirecek. </p><p> Varsayılan ayarlarda, şu durumlarda sorular okunmamış sekmesine girerler ve <span class="badge new-posts badge-notification">1</span> ile gösterilirler: </p><ul><li>Soruyu oluşturduysanız</li><li>Soruyu cevapladıysanız</li><li>Soruyu 4 dakikadan uzun bir süre okuduysanız</li></ul><p> Ya da, sorunun altında bulunan bildirim kontrol bölümünden, soruyu Takip Edildi veya Gözlendi diye işaretlediyseniz.</p><p>Bu ayarları <a href="%{userPrefsUrl}">ayarlar</a> sayfasından değiştirebilirsiniz.</p>'
           starred: '<p>Yıldızlanan sorularınız burada belirir.</p><p>Soruları yıldızlamak ya da yıldızlarını kaldırmak için şunları kullanın:</p><ul><li>soru başlıklarının yanında bulunan <i class="fa fa-star"></i> düğmesini</li><li>Her sorunun en alt kısmında bulunan Yıldız düğmesini</li></ul>'
       bottom:
         latest: "Daha fazla soru yok."
