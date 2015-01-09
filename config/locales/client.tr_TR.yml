@@ -140,6 +140,8 @@ tr_TR:
       topic_count: "Sorular"
       post_count: "Gönderiler"
       user_count: "Kullanıcılar"
+      contact: "Bize ulaşın"
+      contact_info: "Sadece merhaba demek için bile bize dinozor@dinozor.org adresinden ulaşabilirsiniz."
     bookmarks:
       not_logged_in: "üzgünüz, yer imlerine eklemek için giriş yapmanız gerekiyor"
       created: "bu gönderiyi yer imlerine eklediniz"
