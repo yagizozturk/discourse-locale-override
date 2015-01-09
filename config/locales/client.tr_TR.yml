@@ -818,7 +818,7 @@ tr_TR:
           description: "Bu özel mesajlaşmadaki her yeni gönderi için bir bildirim alacaksınız."
         watching:
           title: "Takip Ediliyor"
-          description: "Bu soruda ki her yeni gönderi için bir bildirim alacaksınız. Ayrıca okunmamış ve yeni gönderi sayısı sorunun yanında rakam ile belirecek."
+          description: "Bu sorudaki her yeni gönderi için bir bildirim alacaksınız. Ayrıca okunmamış ve yeni gönderi sayısı sorunun yanında rakam ile belirecek."
         tracking_pm:
           title: "Sadece Gözleniyor"
           description: "Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
