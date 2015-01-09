@@ -128,7 +128,7 @@ tr_TR:
     suggested_topics:
       title: "Önerilen Sorular"
     about:
-      simple_title: "Hakkında"
+      simple_title: "Hakkımızda"
       title: "%{title} Hakkında"
       stats: "Site İstatistikleri"
       our_admins: "Adminlerimiz"
