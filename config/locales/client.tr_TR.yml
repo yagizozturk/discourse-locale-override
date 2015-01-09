@@ -682,7 +682,7 @@ tr_TR:
         category: "\"{{category}}\" kategorisinde ara"
         topic: "Bu soruda ara"
         private_messages: "Özel mesajlarda ara"
-    site_map: "başka bir soru listesine veya kategoriye git"
+    site_map: "başka bir menüye veya kategoriye git"
     go_back: 'geri dön'
     not_logged_in_user: 'güncel aktivitelerin ve ayarların özetinin bulunduğu kullanıcı sayfası'
     current_user: 'kendi kullanıcı sayfana git'
