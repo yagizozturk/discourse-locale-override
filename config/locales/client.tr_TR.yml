@@ -1165,10 +1165,10 @@ tr_TR:
       notifications:
         watching:
           title: "Takip Ediliyor"
-          description: "Bu kategorilerde ki tüm yeni soruları otomatik olarak takip edeceksiniz. Tüm yeni cevaplar ve sorularla ilgili bildirim alacaksınız, ayrıca okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında rakamla belirecek."
+          description: "Bu kategorilerdeki tüm yeni soruları otomatik olarak takip edeceksiniz. Tüm yeni cevaplar ve sorularla ilgili bildirim alacaksınız, ayrıca okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında rakamla belirecek."
         tracking:
           title: "Sadece Gözleniyor"
-          description: "Bu kategorilerde ki tüm yeni soruları otomatik olarak sadece gözleyeceksiniz. Okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında rakam ile belirecek."
+          description: "Bu kategorilerdeki tüm yeni soruları otomatik olarak sadece gözleyeceksiniz ve bildirim almayacaksınız. Okunmamış ve yeni gönderilerin sayısı ilgili sorunun yanında rakam ile belirecek."
         regular:
           title: "Standart"
           description: "Biri @kullaniciadi şeklinde sizden bahsederse ya da gönderinize cevap verirse bildirim alacaksınız."
