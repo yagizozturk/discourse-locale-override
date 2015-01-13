@@ -599,7 +599,7 @@ tr_TR:
       title_placeholder: "Kısa bir cümlede açılamak gerekirse bu tartışmanın sorusu nedir?"
       edit_reason_placeholder: "neden düzenleme yapıyorsunuz?"
       show_edit_reason: "(düzenleme sebebi ekle)"
-      reply_placeholder: "Buraya yazın. Markdown veya BBCode kullanarak biçimlendirin. Resmi yüklemek için sürükleyip bırakın ya da yapıştırın."
+      reply_placeholder: "Buraya yazın. Markdown veya BBCode kullanarak biçimlendirin. Youtube linkini direkt yazın, biz otomatik oynatacağız. Resmi yüklemek için sürükleyip bırakın ya da yapıştırın."
       view_new_post: "Yeni gönderinizi görüntüleyin."
       saving: "Kaydediliyor..."
       saved: "Kaydedildi!"
