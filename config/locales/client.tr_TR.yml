@@ -142,6 +142,11 @@ tr_TR:
       user_count: "Kullanıcılar"
       contact: "Bize ulaşın"
       contact_info: "Sadece merhaba demek için bile bize dinozor@dinozor.org adresinden ulaşabilirsiniz."
+    bookmarked:
+      title: "Yer imlerine ekle"
+      help:
+        bookmark: "Soruyu yer imlerine eklemek için tıklayın"
+        unbookmark: "Yer imlerinden kaldırmak için tıklayın"
     bookmarks:
       not_logged_in: "üzgünüz, yer imlerine eklemek için giriş yapmanız gerekiyor"
       created: "bu gönderiyi yer imlerine eklediniz"
@@ -1211,6 +1216,8 @@ tr_TR:
     topic_statuses:
       warning:
         help: "Bu resmi bir uyarıdır."
+      bookmarked:
+        help: "Bu soru yer imlerine eklendi"
       locked:
         help: "Bu soru kapatıldı; artık yeni cevaplar kabul edilmiyor"
       unpinned:
