@@ -944,7 +944,7 @@ tr_TR:
     pinned_globally_enabled: "Bu konu global olarak başa tutturuldu. Görevliler herkes için ya da bireysel kullanıcılar kendileri için başa tutturmayı kaldırana dek, kendi kategorisinin ve tüm konu listelerinin en üstünde belirecek."
     pinned_globally_disabled: "Bu konu baştan kaldırıldı. Artık bulunduğu kategorinin en üstünde yer almayacak."
     visible_enabled: "Bu gönderi şimdi listelendi. Artık konu listesinde yer alacak."
-    visible_disabled: "Bu konu listeden çıkartıldı. Artık, konu listesinde yer almayacak. Bu konuya sadece kendi bağlantısından ulaşılabilir. "
+    visible_disabled: "Bu soru gizlendi. Artık, sorular arasında yer almayacak. Sadece kendi bağlantısından ulaşılabilir. "
   login:
     not_approved: "Hesabını henüz onaylanmadı. Giriş yapmak için hazır olduğunuzda email ile bilgilendirileceksiniz."
     incorrect_username_email_or_password: "Yanlış kullanıcı adı, email ya da şifre"
