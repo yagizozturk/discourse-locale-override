@@ -1251,8 +1251,8 @@ tr_TR:
     unsubscribe:
       title: "Aboneliği İptal Et"
       description: "Bu emaillarla ilgilenmiyor musunuz? Sorun değil! Aşağıya tıklayarak aboneliğinizi hemen iptal edebilirsiniz:"
-    reply_by_email: "Karşılık vermek için, bu emaili cevaplayın ya da %{base_url}%{url} sayfasını internet tarayıcınızda ziyaret edin."
-    visit_link_to_respond: "Karşılık vermek için, %{base_url}%{url} sayfasını internet tarayıcınızda ziyaret edin."
+    reply_by_email: "Cevap vermek için, bu emaili cevaplayın ya da %{base_url}%{url} sayfasını internet tarayıcınızda ziyaret edin."
+    visit_link_to_respond: "Cevap vermek için, %{base_url}%{url} sayfasını internet tarayıcınızda ziyaret edin."
     posted_by: "%{post_date} tarihinde %{username} tarafından gönderildi"
     user_invited_to_private_message_pm:
       subject_template: "[%{site_name}] %{username} sizi '%{topic_title}' başlıklı özel mesaja davet etti"
