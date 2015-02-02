@@ -131,7 +131,7 @@ tr_TR:
       simple_title: "Hakkımızda"
       title: "%{title} Hakkında"
       stats: "Site İstatistikleri"
-      our_admins: "Adminlerimiz"
+      our_admins: "Yetkililerimiz"
       our_moderators: "Moderatörlerimiz"
       stat:
         all_time: "Tüm Zamanlar"
