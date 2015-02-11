@@ -482,7 +482,7 @@ tr_TR:
         fixed: "Sayfayı Yükle"
     close: "Kapat"
     assets_changed_confirm: "Site yeni güncellendi. Son hali için sayfayı yenileyin?"
-    logout: "Oturumunuz kapatılmış."
+    logout: "Oturumunuz başarıyla kapatıldı."
     refresh: "Yenile"
     read_only_mode:
       enabled: "Bir admin salt-okunur modunu etkinleştirdi. Siteyi gezmeye devam edebilirsiniz fakat etkileşimler çalışmayabilir."
