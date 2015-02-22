@@ -144,6 +144,7 @@ tr_TR:
       contact_info: "Sadece merhaba demek için bile bize dinozor@dinozor.org adresinden ulaşabilirsiniz."
     bookmarked:
       title: "Yer imlerine ekle"
+      clear_bookmarks: "Yer imlerinden kaldır"
       help:
         bookmark: "Soruyu yer imlerine eklemek için tıklayın"
         unbookmark: "Yer imlerinden kaldırmak için tıklayın"
