@@ -225,7 +225,7 @@ tr_TR:
       '12': "Yollanmış ögeler"
       '13': "Gelen Kutusu"
     categories:
-      all: "Bütün Kategoriler"
+      all: "Ana Kategoriler"
       all_subcategories: "hepsi"
       no_subcategory: "hiçbiri"
       category: "Kategori"
