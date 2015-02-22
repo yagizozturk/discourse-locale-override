@@ -1332,7 +1332,7 @@ tr_TR:
   admin_js:
     type_to_filter: "filtre girin..."
     admin:
-      title: 'Discourse Admin'
+      title: 'dinozor.org admin'
       moderator: 'Moderatör'
       dashboard:
         title: "Gösterge Paneli"
@@ -1511,6 +1511,8 @@ tr_TR:
             text: "Geri Çağır"
             title: "Veritabanını calışan son haline geri al."
             confirm: "Veri tabanını  çalışan bir önceki versyonuna geri almak istediğinizden emin misiniz?"
+      plugins:
+        title: "Plugin"
       export_csv:
         failed: "Dışa aktarırken hata oluştu. Lütfen kayıtları kontrol edin."
         button_text: "Dışa aktar"
