@@ -182,7 +182,7 @@ tr_TR:
     choose_topic:
       none_found: "Hiç bir soru bulunamadı."
       title:
-        search: "İsim, url ya da id ile Başlık arayın:"
+        search: "İsim, url ya da id ile başlık arayın:"
         placeholder: "soru başlığını buraya yazın"
     user_action:
       user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> <a href='{{topicUrl}}'>soruyu</a> açtı"
@@ -231,7 +231,7 @@ tr_TR:
       category: "Kategori"
       posts: "Gönderiler"
       topics: "Sorular"
-      latest: "En Son"
+      latest: "En son"
       latest_by: "son gönderen"
       toggle_ordering: "sıralama kontrolünü aç/kapa"
       subcategories: "Alt kategoriler"
