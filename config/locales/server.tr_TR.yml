@@ -198,7 +198,7 @@ tr_TR:
   meta_category_name: "Meta"
   meta_category_description: "Sitenin organizasyonu, nasıl çalıştığı ve nasıl geliştirilebileceği ile ilgili tartışma alanı."
   staff_category_name: "Görevliler"
-  staff_category_description: "Görevliler arası konuşmalar için özel kategori. Konular sadece admin ve moderatörlere gözükür."
+  staff_category_description: "Görevliler arası konuşmalar için özel kategori. Sorular sadece admin ve moderatörlere gözükür."
   assets_topic_body: "Bu kalıcı bir sorudur, sadece görevlilere gözükür, site tasarımında kullanılan resim ve dosyaların depolanması için kullanılır. Sakın silmeyin!\n\n\nİşleyiş aşağıdaki gibidir:\n\n\n1. Bu soruyu cevaplayın.\n2. Logolar, favicon'lar vb. için kullanmak istediğiniz resimleri buraya yükleyin. (Gönderi düzenleyicisindeki yükleme düğmesini kullanabilir, veya resimleri sürükleyip bırakabilir veya kopyalayıp yapıştırabilirsiniz.)\n3. Cevabı gönderin.\n4. Yeni gönderinizdeki resimlere sağ tıklayarak ya da düzenleme ikonuna tıklayıp gönderinizi düzenleyerek resimlerin bağlantılarına ulaşabilirsiniz. Bağlantıları kopyalayın.\n5. Bağlantıları [basit ayarlar](/admin/site_settings/category/required) ilgili bölümlere yapıştırın.\n\n\nEğer farklı dosya tipleri yükleyebilmek istiyorsanız, [dosya ayarları](/admin/site_settings/category/files) sayfasındaki `authorized_extensions` ayarını düzenleyin."
   lounge_welcome:
     title: "Lobiye hoşgeldiniz"
@@ -459,7 +459,7 @@ tr_TR:
     starred:
       title: "Yıldızlı"
       xaxis: "Gün"
-      yaxis: "Yeni yıldızlı konuların sayısı"
+      yaxis: "Yeni yıldızlı soruların sayısı"
     users_by_trust_level:
       title: "Güven Seviyesine ait Kullanıcı Sayısı"
       xaxis: "Güven Seviyesi"
@@ -573,7 +573,7 @@ tr_TR:
     max_topic_title_length: "Konu başlığında izin verilen maksimum karakter sayısı"
     min_private_message_title_length: "Özel mesajın başlığında olabilecek minimum karakter sayısı"
     min_search_term_length: "Arama için girilecek kelimede olması gereken minimum karakter sayısı"
-    allow_uncategorized_topics: "Konuların kategori seçmeden oluşturulmasına izin ver."
+    allow_uncategorized_topics: "Soruların kategori seçmeden oluşturulmasına izin ver."
     uncategorized_description: "Kategorisiz kategorisinin tanıtımı. Boş bırakabilirsiniz."
     allow_duplicate_topic_titles: "Aynı başlık ile birden çok konu açılmasına izin ver."
     unique_posts_mins: "Kullanıcının aynı içerikle yeni bir gönderi oluşturmadan önce geçmesi gereken dakika"
@@ -655,8 +655,8 @@ tr_TR:
     suppress_reply_when_quoting: "Gönderi cevabı alıntılarsa, gönderideki açılabilir hangi-cevaba-istinaden-cevapla bölümünü gösterme."
     max_reply_history: "Hangi-cevaba-istinaden-cevapla bölümü açılınca gösterilecek maximum cevap sayısı"
     experimental_reply_expansion: "Hangi-cevaba-istinaden-cevapla bölümü açılınca ara cevapları gizle (deneysel)"
-    topics_per_period_in_top_summary: "Popüler konular özetinde gösterilen popüler konu sayısı."
-    topics_per_period_in_top_page: "'Daha Fazla Göster' ile genişletilen popüler konular bölümünde gösterilecek popüler konu sayısı. "
+    topics_per_period_in_top_summary: "Popüler sorular özetinde gösterilen popüler konu sayısı."
+    topics_per_period_in_top_page: "'Daha Fazla Göster' ile genişletilen popüler sorular bölümünde gösterilecek popüler konu sayısı. "
     redirect_users_to_top_page: "Yeni ve uzun süredir giriş yapmamış kullanıcıları otomatik olarak Popüler sayfasına yönlendir."
     show_email_on_profile: "Kullanıcının email adresini profilinde göster (sadece kendilerine ve site görevlilerine gözükür)"
     email_token_valid_hours: "Şifremi unuttum / hesap aktivasyon jetonları (n) saat geçerlidir."
@@ -722,7 +722,7 @@ tr_TR:
     max_topics_per_day: "Bir günde, bir kullanıcının oluşturabileceği maksimum konu sayısı."
     max_private_messages_per_day: "Bir günde, bir kullanıcının oluşturabileceği maksimum özel mesaj sayısı."
     suggested_topics: "Konunun en altında yer alan, önerilen konu sayısı. "
-    limit_suggested_to_category: "Önerilen konularda sadece kullanıcının bulunduğu kategoriye ait konuları göster."
+    limit_suggested_to_category: "Önerilen sorularda sadece kullanıcının bulunduğu kategoriye ait soruları göster."
     clean_up_uploads: "Yasadışı barındırmayı engellemek için artık referanssız yüklemeleri kaldır. UYARI: Bu ayarı etkinleştirmeden önce /uploads dizinini yedeklemeyi isteyebilirsiniz"
     clean_orphan_uploads_grace_period_hours: "Artık yüklemeler kaldırılmadan önce tanınan süre (saat olarak)."
     purge_deleted_uploads_grace_period_days: "Silinen yüklemelerin kaldırılması için tanınan süre (gün olarak)."
@@ -748,7 +748,7 @@ tr_TR:
     tl2_requires_topic_reply_count: "Bir kullanıcının güven seviyesi 2'ye yükseltilmeden önce cevaplaması gereken konu sayısı."
     tl3_requires_days_visited: "Bir kullanıcının güven seviyesi 3'e yükseltimeye hak kazanması için, son 100 günde siteyi ziyaret etmesi gereken minimum gün sayısı. (0 - 100)"
     tl3_requires_topics_replied_to: "Bir kullanıcının güven seviyesi 3'e yükseltilmeye hak kazanması için son 100 günde cevap yazması gereken minimum konu sayısı. (0 ya da daha fazla)"
-    tl3_requires_topics_viewed: "Bir kulanıcının güven seviyesi 3'e yükseltilmeye hak kazanması için, son 100 gün içinde oluşturulmuş konulardan görüntülemesi gereken yüzde oranı. (0 ile 100 arası)"
+    tl3_requires_topics_viewed: "Bir kulanıcının güven seviyesi 3'e yükseltilmeye hak kazanması için, son 100 gün içinde oluşturulmuş sorulardan görüntülemesi gereken yüzde oranı. (0 ile 100 arası)"
     tl3_requires_posts_read: "Bir kulanıcının güven seviyesi 3'e yükseltilmeye hak kazanması için, son 100 gün içinde oluşturulmuş gönderilerden görüntülemesi gereken yüzde oranı. (0 ile 100 arası)"
     tl3_requires_topics_viewed_all_time: "Bir kullanıcının güven seviyesi 3'e yükselmeye hak kazanması için görüntülemesi gereken toplam minimum konu sayısı."
     tl3_requires_posts_read_all_time: "Bir kullanıcının güven seviyesi 3'e yükselmeye hak kazanması için görüntülemesi gereken toplam minimum gönderi sayısı."
@@ -773,13 +773,13 @@ tr_TR:
     title_min_entropy: "Konu başlığı için gereken minimum entropi (tekil karakter, ingilizce-dışı karakterler daha fazla sayılır)"
     body_min_entropy: "Gönderi içeriği için gereken minimum entropi (tekil karakter, ingilizce-dışı karakterler daha fazla sayılır)"
     title_fancy_entities: "SmartyPants tarzında, konu başlıklarında ASCII karakterlerini süslü HTML öğelerine çevir: http://daringfireball.net/projects/smartypants/"
-    min_title_similar_length: "Bir başlığın benzer konular için kontrolünün yapılmasından önce sahip olması gereken minimum uzunluk."
-    min_body_similar_length: "Bir gönderi metninin benzer konular için kontrolünün yapılmasından önce sahip olması gereken minimum uzunluk."
+    min_title_similar_length: "Bir başlığın benzer sorular için kontrolünün yapılmasından önce sahip olması gereken minimum uzunluk."
+    min_body_similar_length: "Bir gönderi metninin benzer sorular için kontrolünün yapılmasından önce sahip olması gereken minimum uzunluk."
     category_colors: "Kategoriler için izin verilen onaltılı renk değerlerinin listesi"
     max_image_size_kb: "KB cinsinden yüklenebilecek maksimum resim büyüklüğü. Bu nginx (client_max_body_size) / apache veya proxyde de ayarlanmalı."
     max_attachment_size_kb: "KB cinsinden yüklenebilecek maksimum eklenti dosyası büyüklüğü. Bu nginx (client_max_body_size) / apache veya proxyde de ayarlanmalı."
     authorized_extensions: "Yüklenebilecek dosya uzantılarının listesi (tüm dosya türlerini etkinleştirmek için '*' kullanın)"
-    max_similar_results: "Yeni bir konu oluştururken, düzenleyicinin üzerinde gösterilecek benzer konuların sayısı. Karşılaştırmalar başlık ve içerik üzerinden yapılır."
+    max_similar_results: "Yeni bir konu oluştururken, düzenleyicinin üzerinde gösterilecek benzer soruların sayısı. Karşılaştırmalar başlık ve içerik üzerinden yapılır."
     title_prettify: "Tümü büyük harf, ilk karakteri küçük harf, çoklu ! ve ?, sonda ekstra . kullanımı gibi, sık yapılan yazım hatalarını önle."
     topic_views_heat_low: "Bu kadar görüntülemeden sonra, görüntülemeler alanı hafifçe vurgulanacak."
     topic_views_heat_medium: "Bu kadar görüntülemeden sonra, görüntülemeler alanı kısmen vurgulanacak."
@@ -806,7 +806,7 @@ tr_TR:
     max_age_unmatched_ips: "Taranmış IP girişlerinden karşılığı olmayanları (N) gün sonunda sil."
     num_flaggers_to_close_topic: "Bir konunun moderatör müdahalesi için otomatik olarak durdurulmadan önce alması gereken minimum tekil bayrak sayısı"
     num_flags_to_close_topic: "Bir konunun moderatör müdahalesi için otomatik olarak durdurulmadan önce alması gereken minimum aktif bayrak sayısı "
-    reply_by_email_enabled: "Konulara email üzerinden cevap yazmayı etkinleştir."
+    reply_by_email_enabled: "Sorulara email üzerinden cevap yazmayı etkinleştir."
     reply_by_email_address: "Email ile cevapla özelliği için gelen email adresi şablonu, örnek: %{reply_key}@reply.example.com or replies+%{reply_key}@example.com"
     disable_emails: "Discourse'un herhangi bir email göndermesine izin verme"
     strip_images_from_short_emails: "2800 Byte boyutundan küçük emaillardan resimleri çıkar"
@@ -823,7 +823,7 @@ tr_TR:
     email_in_min_trust: "Bir kullanıcının email aracılığı ile yeni konu oluşturabilmesi için sahip olması gereken minimum güven seviyesi."
     email_prefix: "Emaillerin konu bölümünü belirten [etiket]. Boş bırakılırsa 'title' yazacak."
     email_site_title: "Bu siteden giden emaillarda gönderici olarak kullanılacak sitenin başlığı. Herhangi bir şey girilmezse varsayılan olarak 'title' yazacak. Eğer 'başlık\" içeriğinizde, email göndericisinin stringlerinde izin verilmeyen karakterler varsa, bu ayarı kullanın.  "
-    minimum_topics_similar: "Yeni konu oluşturulurken, benzer konuların gösterilmesi için sitede olması gereken konu sayısı."
+    minimum_topics_similar: "Yeni konu oluşturulurken, benzer soruların gösterilmesi için sitede olması gereken konu sayısı."
     relative_date_duration: "Gönderinin üstünden bu kadar gün geçtikten sonra, gönderi tarihi mutlak şekilde değil (20 Şubat) göreceli şekilde (7g) gösterilecek."
     delete_user_max_post_age: "İlk gönderisini (x) günden eski olan kullanıcıların silinmesine izin verme."
     delete_all_posts_max: "Tüm Gönderileri Sil butonuna basıldığında tek seferde silinebilecek maksimum gönderi sayısı. Eğer bir kullanıcının gönderi sayısı bu sayıdan fazlaysa, gönderilerin hepsi tek seferde silinemez ve bu kullanıcı silinemez."
@@ -845,7 +845,7 @@ tr_TR:
     sequential_replies_threshold: "Kullanıcının ardarda çok fazla cevap gönderdiğine dair uyarı alması için, bir konuda üstüste yapması gereken gönderi sayısı. "
     enable_mobile_theme: "Mobil cihazlar mobil uyumlu temayı kullanır, dilerse masaüstü görünüme geçebilirler. Eğer özel, duyarlı bir stil kullanıyorsanız bunu devredışı bırakın."
     dominating_topic_minimum_percent: "Konuyu domine ettiğine dair uyarı almadan önce konudaki gönderilerin yüzde kaçının kullanıcıya ait olması gerekir."
-    suppress_uncategorized_badge: "Kategorisiz konular için olan rozeti konu listesinde gösterme."
+    suppress_uncategorized_badge: "Kategorisiz sorular için olan rozeti konu listesinde gösterme."
     global_notice: "Tüm ziyaretçilere İVEDİ ACİL DURUM global manşet uyarısı göster, saklamak için boş bırakın (HTML kullanılabilir)."
     disable_edit_notifications: " 'download_remote_images_to_local' aktif olduğunda, sistem kullanıcısından gelen düzenleme bildirilerini devre dışı bırakır"
     enable_names: "Kullanıcıların tam isimlerinin gözükmesine izin ver. Gizlenmesi için bu özelliği devre dışı bırak."
@@ -858,16 +858,16 @@ tr_TR:
     embeddable_host: "Bu Discourse forumundan yorumların yerleştirilebileceği sunucu"
     feed_polling_enabled: "SADECE YERLEŞTİRME İÇİN: RSS/ATOM beslemesinin gönderi olarak yerleştirilip yerleştirilemeyeceği."
     feed_polling_url: "SADECE YERLEŞTİRME İÇİN: Yerleştirilecek RSS/ATOM beslemesinin URL'i."
-    embed_by_username: "Yerleştirilmiş konuları oluşturan kullanıcıya ait Discourse kullanıcı adı. "
+    embed_by_username: "Yerleştirilmiş soruları oluşturan kullanıcıya ait Discourse kullanıcı adı. "
     embed_username_key_from_feed: "Beslemeden Discourse kullanıcı adını çekmek için kullanılacak anahtar"
     embed_truncate: "Yerleştirilmiş gönderileri kırp."
-    embed_category: "Yerleştirilmiş konular kategorisi."
+    embed_category: "Yerleştirilmiş sorular kategorisi."
     embed_post_limit: "Yerleştirilecek maksimum gönderi sayısı."
     embed_whitelist_selector: "Yerleştirmelerde kullanılmasına izin verilen öğeler için CSS seçicisi."
     embed_blacklist_selector: "Yerleştirmelerden çıkartılmış öğeler için CSS seçicisi."
     notify_about_flags_after: "Bu kadar saat geçmesine rağmen hala ilgilenilmemiş bayraklar varsa, contact_email adresine email gönder. Devre dışı bırakmak için 0 girin. "
     enable_cdn_js_debugging: "/logs 'ların asli hataları tüm js içeriklerine crossorigin izinleri ekleyerek göstermesine izin ver."
-    show_create_topics_notice: "Eğer sitede herkese açık konu sayısı 5'den az ise, adminden yeni konular oluşturmasını isteyen bir uyarı mesajı göster. "
+    show_create_topics_notice: "Eğer sitede herkese açık konu sayısı 5'den az ise, adminden yeni sorular oluşturmasını isteyen bir uyarı mesajı göster. "
     vacuum_db_days: "Geçiş sonra DB alanı geri kazanmak için TAM VAKUM ANALİZİ'ni çalıştırın (devre dışı bırakmak için 0 girin)"
     prevent_anons_from_downloading_files: "Anonim kullanıcıların eklenti indirebilmesini önle. DİKKAT: Bu ayar, eklenti olarak gönderilen resim-dışı site içeriklerinin de çalışmasını engelleyebilir."
     errors:
@@ -912,12 +912,12 @@ tr_TR:
   frequent_poster: "En Sık Gönderen"
   redirected_to_top_reasons:
     new_user: "Hoşgeldiniz! Bunlar en popüler yeni gönderiler."
-    not_seen_in_a_month: "Hoşgeldiniz! Bir süredir yoktunuz. Bunlar sizin yokluğunuzda en popüler olan konular."
+    not_seen_in_a_month: "Hoşgeldiniz! Bir süredir yoktunuz. Bunlar sizin yokluğunuzda en popüler olan sorular."
   move_posts:
     new_topic_moderator_post:
       other: "%{count} gönderiyi yeni bir konuya taşıdım: %{topic_link}"
     existing_topic_moderator_post:
-      other: "%{count} gönderiyi var olan konulardan birine taşıdım: %{topic_link}"
+      other: "%{count} gönderiyi var olan sorulardan birine taşıdım: %{topic_link}"
   change_owner:
     post_revision_text: "Sahiplik %{old_user} hesabından %{new_user} hesabına aktarıldı"
   topic_statuses:
@@ -1235,7 +1235,7 @@ tr_TR:
 
         Bu, %{site_name} sitesinin, görevlilerin değerlendirmeleri sonucunda hesabınızındaki engelin kaldırıldığını bildirmek için gönderdiği otomatik bir mesajdır.
 
-        Artık, eskisi gibi yeni cevaplar ve konular oluşturabilirsiniz.
+        Artık, eskisi gibi yeni cevaplar ve sorular oluşturabilirsiniz.
     pending_users_reminder:
       subject_template:
         other: "%{count} kullanıcı onay bekliyor"
@@ -1321,7 +1321,7 @@ tr_TR:
       subject_template: "[%{site_name}] Özeti %{date}"
       new_activity: "Konu ve gönderilerinizdeki yeni aktiviteler:"
       top_topics: "Popüler gönderiler"
-      other_new_topics: "Popüler konular"
+      other_new_topics: "Popüler sorular"
       unsubscribe: "Bu özet %{site_link} sitesini bir süre ziyaret etmediğinizde gönderilir. Almak istemiyorsanız, ayrılmak için %{unsubscribe_link}."
       click_here: "buraya tıkla"
       from: "%{site_name} özeti"
